@@ -1,0 +1,14 @@
+{
+	"params": [
+		{
+			"name": "Text",
+			"type": "String",
+			"defaultValue": "Sample Text"
+		},
+		{
+			"name": "Duration (in beats)",
+			"type": "String",
+			"defaultValue": "4"
+		}
+	]
+}

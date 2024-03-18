@@ -1,0 +1,12 @@
+<!DOCTYPE codename-mod-options>
+<!-- TEMPLATE FOR CUSTOM OPTIONS!!! -->
+<menu name="Polishings Config" desc="Adds an awesome score text and timebar, all configurable btw.">
+	<checkbox id="showMisses" name="Show Misses" value='true' desc='When checked, this will show the misses and the current FC rating.' />
+	<checkbox id="showAccuracy" name="Show Accuracy" value='true' desc='When checked, this will show the accuracy and the current letter rating.' />
+	<checkbox id="showScore" name="Show Score" value='true' desc='When checked, this will show the score and the current score multiplier, if you have that enabled.' />
+	<checkbox id="timeBar" name="Time Bar Visibility" value='true' desc='When checked, this will make the Time Bar visible.' />
+	<checkbox id="scoreMultiplier" name="Score Multiplier" value='true' desc='When checked, this will enable the score multiplier, describable as "Combo-based exponental score", or whatever fancy name you wanna use!' />
+	<number id="timeBarSize" name="Time Bar Size" min="0.25" max="1" change="0.05" default='1' desc='The size multiplier of the time bar. Lower = Smaller' />
+	<number id="scoreTextSize" name="Score Text Size" min="18" max="20" change="1" default='20' desc='The font size of the text, this also affects the time bar. Lower = Smaller' />
+	<checkbox id="animateText" name="Animate Text" value='true' desc='When checked, this will animate the text, disable if you no likey!' />
+</menu>

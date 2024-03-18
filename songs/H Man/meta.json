@@ -1,0 +1,16 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 105,
+	"difficulties": [
+		"HNormal"
+	],
+	"needsVoices": true,
+	"parsedColor": -1,
+	"displayName": "H-Man",
+	"icon": "Icon",
+	"name": "H Man",
+	"color": "#FFFFFF"
+}
